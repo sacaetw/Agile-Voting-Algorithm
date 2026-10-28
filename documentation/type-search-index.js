@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"electionsystem","l":"Ballot"},{"p":"electionsystem","l":"Candidate"},{"p":"electionsystem","l":"Election"},{"p":"electionsystem","l":"Main"},{"p":"electionsystem","l":"MV"},{"p":"electionsystem","l":"Plurality"},{"p":"electionsystem","l":"STV"}];updateSearchResults();

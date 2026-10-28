@@ -1,0 +1,17 @@
+MV Election Report
+==================
+Number of Seats:   1
+Number of Files:   1
+Number of Ballots: 1
+Total Votes Cast:  2
+
+Candidate                            Votes   % Share
+-------------------------------------------------------
+Alice (Party A)                          1    50.00%
+Bob (Party B)                            1    50.00%
+
+ELECTED CANDIDATES:
+  Alice (Party A)                        1    50.00%
+
+NON-ELECTED CANDIDATES:
+  Bob (Party B)                          1    50.00%

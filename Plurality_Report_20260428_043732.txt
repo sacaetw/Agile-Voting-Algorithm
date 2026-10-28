@@ -1,0 +1,14 @@
+Election Report
+===============
+Type: Plurality
+Date: 2026-04-28 04:37:32
+Seats: 3
+Total Ballots: 3
+Total Candidates: 3
+
+ELECTED CANDIDATES:
+Alice (Party A) - 1 votes
+Bob (Party B) - 1 votes
+Charlie (Party C) - 1 votes
+
+NON-ELECTED CANDIDATES:

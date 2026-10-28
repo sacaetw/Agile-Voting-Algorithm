@@ -1,0 +1,13 @@
+-classpath '/Users/finngidden/Desktop/Classes/CSCI4081/repo-Team08/Project2/build/classes/java/main:/Users/finngidden/Desktop/Classes/CSCI4081/repo-Team08/Project2/build/resources/main'
+-d '/Users/finngidden/Desktop/Classes/CSCI4081/repo-Team08/Project2/documentation'
+-doctitle 'Election System'
+-notimestamp 
+-quiet 
+-windowtitle 'Election System'
+'/Users/finngidden/Desktop/Classes/CSCI4081/repo-Team08/Project2/src/main/java/electionsystem/MV.java'
+'/Users/finngidden/Desktop/Classes/CSCI4081/repo-Team08/Project2/src/main/java/electionsystem/Ballot.java'
+'/Users/finngidden/Desktop/Classes/CSCI4081/repo-Team08/Project2/src/main/java/electionsystem/Main.java'
+'/Users/finngidden/Desktop/Classes/CSCI4081/repo-Team08/Project2/src/main/java/electionsystem/Candidate.java'
+'/Users/finngidden/Desktop/Classes/CSCI4081/repo-Team08/Project2/src/main/java/electionsystem/Plurality.java'
+'/Users/finngidden/Desktop/Classes/CSCI4081/repo-Team08/Project2/src/main/java/electionsystem/Election.java'
+'/Users/finngidden/Desktop/Classes/CSCI4081/repo-Team08/Project2/src/main/java/electionsystem/STV.java'

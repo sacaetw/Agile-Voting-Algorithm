@@ -1,0 +1,62 @@
+plugins {
+    id 'java'
+    id 'war'
+    id 'jacoco'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.6.2'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+jacoco {
+    toolVersion = "0.8.12"
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+    finalizedBy jacocoTestReport
+}
+/*
+jacocoTestReport {
+    dependsOn test // tests are required to run before generating the report
+    
+    reports {
+        xml.required = true
+        xml.destination file("${buildDir}/reports/jacoco/test/jacocoTestReport.xml")
+        csv.required = false
+        html.required = true
+        html.outputLocation = layout.buildDirectory.dir('jacocoHtml')
+    }
+
+    afterEvaluate {
+        classDirectories.setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it, include: 'electionsystem/**')
+        }))
+    }
+}
+*/
+javadoc {
+    title = "Election System"
+    destinationDir = file("documentation")
+}
+
+sourceSets {
+    test {
+        java {
+            srcDirs = ['testing']
+        }
+    }
+}

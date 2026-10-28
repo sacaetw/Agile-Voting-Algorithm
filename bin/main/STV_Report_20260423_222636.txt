@@ -1,0 +1,38 @@
+SRS Election
+Date: 2026-04-23 22:26:36
+
+Candidates (4 total):
+  Alice (Party A)
+  Bob (Party B)
+  Charlie (Party C)
+  Diana (Party D)
+
+Seats: 1
+Total Ballots: 3
+Droop Quota: 2
+Total Rounds: 4
+
+ELECTED CANDIDATES:
+  Charlie (Party C)
+
+NON-ELECTED CANDIDATES:
+  Bob (Party B)
+  Alice (Party A)
+  Diana (Party D)
+
+BALLOT ORDER AFTER SHUFFLE:
+  [3, 1, 5]
+
+ROUND-BY-ROUND BALLOT DISTRIBUTION:
+  Round 1:
+    Alice: [1] (1 ballots)
+    Bob: [] (0 ballots)
+    Charlie: [5] (1 ballots)
+    Diana: [3] (1 ballots)
+  Round 2:
+    Alice: [1] (1 ballots)
+    Charlie: [5] (1 ballots)
+    Diana: [3] (1 ballots)
+  Round 3:
+    Charlie: [1, 5] (2 ballots)
+    Diana: [3] (1 ballots)
